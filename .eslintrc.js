@@ -59,6 +59,7 @@ module.exports = {
       },
     ],
     "react/function-component-definition": "off",
+    "react/no-unknown-property": ["error", { ignore: ["jsx", "global"] }],
   },
   settings: {
     "import/resolver": {
